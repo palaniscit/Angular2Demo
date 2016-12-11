@@ -2,11 +2,12 @@ import {Component} from 'angular2/core';
 import {CoursesComponent} from './courses.component';
 import {AuthorsComponent} from './authors.component';
 import {FavoriteComponent} from './favorite.component';
+import {LikeComponent} from './like.component'; 
 
 @Component({
     selector: 'my-app',
     templateUrl: 'app/app.template.html',
-    directives: [CoursesComponent, AuthorsComponent, FavoriteComponent]
+    directives: [CoursesComponent, AuthorsComponent, FavoriteComponent, LikeComponent]
 })
 export class AppComponent { 
     imageUrl = "http://lorempixel.com/400/200";
